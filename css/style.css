@@ -198,6 +198,10 @@ li {
   text-decoration: none;
 }
 
+.footerLinks p {
+  width: 26%;
+}
+
 .footerLinks p a {
   color: #fff;
   font-size: 1rem;
