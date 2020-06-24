@@ -18,6 +18,19 @@ ul{
     padding-inline-start: 40px;
 }
 
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
 
 /* NAVBAR STYLING */
 .navbar {
