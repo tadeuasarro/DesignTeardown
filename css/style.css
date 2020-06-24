@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* NAVBAR STYLING */
@@ -8,26 +9,23 @@
   background-color: #D33A2C;
   display: flex;
   width: 100%;
-  height: 110px;
   align-items: center;
+  font-family: Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+}
+
+.logo {
+  padding: 0 25px;
 }
 
 .navbar a{
   text-decoration: none;
   color: #ffffff;
-  font-size: 1.05em;
-}
-
-.logo{
-  height: 40px;
-  width: 40px;
+  font-size: 1.25em;
 }
 
 .navbar-ul{
   display: flex;
   list-style: none;
-  list-style: none;
-  border: black solid 1px;
   width: 100%;
   justify-content: space-evenly;
 }
@@ -36,11 +34,45 @@
   font-weight: 700;
   display: flex;
   align-items: center;
-  font-family: Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
 }
 
-.logo {
-  border: blue solid 1px;
+.nav-button,
+.toggle-bar {
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.toggle-bar {
+  background-color: #a92e23;
+  border: 1px solid #a12c21;
+}
+
+.nav-button:hover {
+  background-color: #a92e23;
+}
+
+.toggle-bar:hover {
+  background-color: #a12c21;
+}
+
+/* has to be fixed, probably with javascript, gotta come up with a solution for toggle bar */
+.item-6,
+.item-7,
+.item-8,
+.item-9,
+.item-10 {
+  display: none;
+}
+
+.navbar-form {
+  width: 325px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding-left: 50px;
+  margin: 0 25px;
 }
 
 /* MAIN STYLING */
