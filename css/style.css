@@ -239,5 +239,22 @@
 }
 
 .LowerFooter{
-  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 13%;
+}
+
+.footerImage {
+  height: 100px;
+  width: 200px;
+  margin-left: 15%;
+  transform: scale(0.6);
+}
+
+.copyrightSection {
+  flex-grow: 1;
+  padding-left: 5%;
+  padding-top: 5%;
 }
