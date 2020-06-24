@@ -77,6 +77,48 @@
 
 /* MAIN STYLING */
 
-/* CONTAINER STYLING */
+/* FIRST CONTAINER STYLING */
+.first-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.small-first-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1400px;
+  border: solid 1px black;
+}
+
+.first-element-title,
+.really-red {
+  position: absolute;
+  margin-top: 30px;
+  border: solid black 1px;
+}
+
+.really-red {
+  right: 30px;
+}
+
+.first-element-container {
+  width: 50%;
+  height: 400px;
+}
+
+.first-element-small-container{
+  width: 50%;
+  height: 200px;
+}
+
+.darker {
+  background-color: #bc3428;
+}
+
+.lighter {
+  background-color: #c7372a;
+}
 
 /* FOOTER STYLING */
