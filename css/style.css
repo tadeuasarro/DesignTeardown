@@ -230,7 +230,7 @@
 }
 
 .footerLinks p {
-  width: 1200px;
+  width: 35%;
 }
 
 .footerLinks p a {
@@ -257,4 +257,29 @@
   flex-grow: 1;
   padding-left: 5%;
   padding-top: 5%;
+}
+
+.footerCopyright{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.ul-copyright{
+  align-content: center;
+  width: 540px;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.li-copyright {
+  display: inline;
+  padding: 5px;
+  line-height: 2;
+  margin-right: 0.5rem;
+}
+
+.li-copyright a{
+  text-decoration: none;
+  color: #fff;
 }
