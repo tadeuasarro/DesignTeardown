@@ -158,6 +158,7 @@
 .first-element-container {
   width: 50%;
   height: 400px;
+  padding-left: 60px;
 }
 
 .first-element-small-container{
@@ -171,6 +172,12 @@
 
 .lighter {
   background-color: #c7372a;
+}
+
+.author img {
+  width: 70px;
+  border: 4px solid white;
+  border-radius: 10px;
 }
 
 /* FOOTER STYLING */
