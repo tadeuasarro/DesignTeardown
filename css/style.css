@@ -132,11 +132,12 @@
   font-size: 40px;
   color: #c7372a;
   transform: rotateZ(-10deg) translateY(-10px);
+  transition-duration: 0.2s;
 }
 
 .really-red div:hover {
   transform: none;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
 }
 
 .really-red h4 {
@@ -157,13 +158,20 @@
 
 .first-element-container {
   width: 50%;
-  height: 400px;
+  height: 600px;
+}
+
+.first-element-container a {
+  text-decoration: none;
+  display: flex;
   padding-left: 60px;
+  padding-right: 60px;
+  height: 100%;
 }
 
 .first-element-small-container{
   width: 50%;
-  height: 200px;
+  height: 120px;
 }
 
 .darker {
@@ -174,10 +182,71 @@
   background-color: #c7372a;
 }
 
+.author {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+.author span {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
 .author img {
   width: 70px;
   border: 4px solid white;
   border-radius: 10px;
+  margin-right: 20px;
+  transform: rotateZ(-10deg) translateY(-10px);
+  transition-duration: 0.2s;
+}
+
+.author img:hover {
+  transform: none;
+  transition-duration: 0.2s;
+}
+
+.article-title {
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.article-title h3 {
+  color: white;
+  display: inline;
+  font-size: 35px;
+  margin-right: 10px;
+}
+
+.article-title span {
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.article-title i {
+  margin-right: 10px;
+  transform: scale(-1, 1);
+}
+
+.social span {
+  margin-right: 30px;
+}
+
+.social i {
+  color: #61140f;
+}
+
+.social span {
+  color: #fff;
+}
+
+.arrow {
+  color: #fff;
+  font-size: 50px;
 }
 
 /* FOOTER STYLING */
@@ -187,12 +256,14 @@
   width: auto;
   height: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin-top: 40px;
 }
 
 .upperFooter {
   width: 1400px;
+  border: 1px solid red;
 }
 
 .footerHeading{
@@ -239,11 +310,12 @@
 }
 
 .LowerFooter{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 13%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 13%;
+  border: black solid 1px;
 }
 
 .footerImage {
@@ -268,8 +340,8 @@
 .ul-copyright{
   align-content: center;
   width: 540px;
-    vertical-align: middle;
-    padding: 0;
+  vertical-align: middle;
+  padding: 0;
 }
 
 .li-copyright {
