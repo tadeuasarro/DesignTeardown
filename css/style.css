@@ -28,10 +28,51 @@
   width: 40px;
 }
 
+.headerNavBar{
+  position: relative;
+    display: block;
+    min-width: 0;
+    color: #fff;
+    grid-column: span 2;
+    font-size: 1.05em;
+}
+
 .navbar ul{
   display: flex;
   list-style: none;
+  display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+    width: 100%;
+    flex-shrink: 1;
+    min-width: 0;
+    justify-content: flex-start;
 }
+
+.navItem{
+      flex-grow: 0;
+    background: 0 0; 
+    text-shadow: none; 
+    color: inherit; 
+    font-weight: 700; 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 0; 
+    padding-left: 0; 
+    font-family: Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+
+} 
+
+.activeNav{
+  
+}
+.navitem1{
+
+}
+
+
 
 /* MAIN STYLING */
 
