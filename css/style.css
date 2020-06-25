@@ -6,7 +6,7 @@
 
 /* NAVBAR STYLING */
 .navbar {
-  background-color: #a3a09f;
+  background-color: #d33a2c;
   display: flex;
   width: 100%;
   align-items: center;
@@ -38,21 +38,21 @@
 
 .nav-button,
 .toggle-bar {
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
 }
 
 .toggle-bar {
-  background-color: #585756;
-  border: 1px solid #4e4d4d;
+  background-color: #a92e23;
+  border: 1px solid #a12c21;
 }
 
 .nav-button:hover {
-  background-color: #585756;
+  background-color: #a92e23;
 }
 
 .toggle-bar:hover {
-  background-color: #4e4d4d;
+  background-color: #a12c21;
 }
 
 /* has to be fixed, probably with javascript, gotta come up with a solution for toggle bar */
@@ -130,7 +130,7 @@
   align-items: center;
   justify-content: center;
   font-size: 40px;
-  color: #949190;
+  color: #c7372a;
   transform: rotateZ(-10deg) translateY(-10px);
   transition-duration: 0.2s;
 }
@@ -153,7 +153,7 @@
 
 .really-red h4:hover {
   background-color: #fff;
-  color: #777170;
+  color: #c7372a;
 }
 
 .first-element-container {
@@ -175,11 +175,11 @@
 }
 
 .darker {
-  background-color: rgb(105, 102, 102);
+  background-color: #bc3428;
 }
 
 .lighter {
-  background-color: rgb(165, 161, 161);
+  background-color: #c7372a;
 }
 
 .author {
@@ -247,6 +247,89 @@
 .arrow {
   color: #fff;
   font-size: 50px;
+}
+
+/* SECOND CONTAINER STYLING */
+.second-container {
+  background-color:  #f3f0ef;
+  display: flex;
+  justify-content: center;
+}
+
+.small-second-container {
+  width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: blue 1px solid;
+  padding: 20px 5px;
+}
+
+.secondary-article {
+  width: 33.33%;
+  height: 500px;
+  border: black solid 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.secondary-article:hover {
+  transform: scale( 1.1, 1.1);
+  background-color: #fff;
+  transition: 0.2s;
+}
+
+.secondary-article-link {
+  text-decoration: none;
+  color: black;
+  padding: 25px 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.secondary-article small {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #666666;
+  font-weight: bold;
+}
+
+.secondary-article h3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  text-decoration: underline;
+  margin: 15px 0;
+}
+
+.secondary-author,
+.author-profile {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #666666;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 30px 0;
+}
+
+.secondary-article p {
+  line-height: 30px;
+  color: #333333;
+}
+
+.hashtag {
+  color: #006fc6;
+}
+
+.grammarly-ad {
+  width: 33.33%;
+  height: 500px;
+  border: purple solid 1px;
+}
+
+.smashing-ad {
+  width: 66.66%;
+  height: 500px;
+  border: green solid 1px;
 }
 
 /* FOOTER STYLING */
