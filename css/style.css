@@ -324,12 +324,14 @@
   width: 33.33%;
   height: 500px;
   border: purple solid 1px;
+  background-color: #76d476;
 }
 
 .smashing-ad {
   width: 66.66%;
   height: 500px;
   border: green solid 1px;
+  background-color: #c7372a;
 }
 
 /* FOOTER STYLING */
