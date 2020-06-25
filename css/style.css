@@ -378,15 +378,25 @@
   border: green solid 1px;
   background-color: #c7372a;
   border-radius: 11px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
 }
 
 .smashingAdText{
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .smashing-ad img{
-  height: 40%;
-  width: 40%;
+  height: 50%;
+  width: 50%;
+}
+
+.smashing-ad a{
+  text-decoration: none;
+  color: #fff;
 }
 
 /* FOOTER STYLING */
