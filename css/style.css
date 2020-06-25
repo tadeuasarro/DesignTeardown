@@ -6,7 +6,7 @@
 
 /* NAVBAR STYLING */
 .navbar {
-  background-color: #D33A2C;
+  background-color: #a3a09f;
   display: flex;
   width: 100%;
   align-items: center;
@@ -43,16 +43,16 @@
 }
 
 .toggle-bar {
-  background-color: #a92e23;
-  border: 1px solid #a12c21;
+  background-color: #585756;
+  border: 1px solid #4e4d4d;
 }
 
 .nav-button:hover {
-  background-color: #a92e23;
+  background-color: #585756;
 }
 
 .toggle-bar:hover {
-  background-color: #a12c21;
+  background-color: #4e4d4d;
 }
 
 /* has to be fixed, probably with javascript, gotta come up with a solution for toggle bar */
@@ -130,7 +130,7 @@
   align-items: center;
   justify-content: center;
   font-size: 40px;
-  color: #c7372a;
+  color: #949190;
   transform: rotateZ(-10deg) translateY(-10px);
   transition-duration: 0.2s;
 }
@@ -153,7 +153,7 @@
 
 .really-red h4:hover {
   background-color: #fff;
-  color: #c7372a;
+  color: #777170;
 }
 
 .first-element-container {
@@ -175,11 +175,11 @@
 }
 
 .darker {
-  background-color: #bc3428;
+  background-color: rgb(105, 102, 102);
 }
 
 .lighter {
-  background-color: #c7372a;
+  background-color: rgb(165, 161, 161);
 }
 
 .author {
