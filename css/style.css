@@ -337,15 +337,39 @@
     align-items: center;
     justify-items: center;
     text-align: center;
+    border-radius: 4%;
+    margin-left: 10%;
+    margin-right: 20px;
+
 }
 
 .grammarly-ad-section img{
     box-sizing: border-box;
     border-radius: 11px;
-    margin-bottom: 1em;
-    padding: 0 .5em;
     height: 50%;
     width: 50%;
+    margin:0;
+}
+
+.grammarly-ad-section p{
+  margin-left: 10px;
+  margin-right:10px;
+  margin-top: 0;
+}
+
+.joinButtonBox{
+  background-color: #15C39A;
+  padding: 10px 14px;
+  border-radius: 3px;
+  box-shadow: 0 6px 13px 0 rgba(0,0,0,.15);
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 12px;
+  transition: all .3s ease-in-out;
+  transform: translateY(-1px);
+  margin-bottom: 1em;
 }
 
 .smashing-ad {
