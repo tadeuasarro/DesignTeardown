@@ -377,6 +377,16 @@
   height: 500px;
   border: green solid 1px;
   background-color: #c7372a;
+  border-radius: 11px;
+}
+
+.smashingAdText{
+  font-size: 30px;
+}
+
+.smashing-ad img{
+  height: 40%;
+  width: 40%;
 }
 
 /* FOOTER STYLING */
