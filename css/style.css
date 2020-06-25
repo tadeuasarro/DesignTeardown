@@ -261,20 +261,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: blue 1px solid;
-  padding: 20px 5px;
+  padding: 30px 5px;
 }
 
 .secondary-article {
   width: 33.33%;
   height: 500px;
-  border: black solid 1px;
   display: flex;
   flex-direction: column;
 }
 
 .secondary-article:hover {
-  transform: scale( 1.1, 1.1);
+  transform: scale( 1.05, 1.05);
   background-color: #fff;
   transition: 0.2s;
 }
@@ -321,39 +319,39 @@
 }
 
 .grammarly-ad {
-  width: 33.33%;
+  width: 30%;
   height: 500px;
-  border: purple solid 1px;
   text-align: center;
+  display: flex;
+  margin-right: 20px;
+}
+
+.grammarly-ad small {
+  font-style: italic;
+  font-size: 11px;
+  color: #666666;
+  display: block;
+  margin: 20px 0;
 }
 
 .grammarly-ad-section{
   background: linear-gradient(-30deg, #b0efe0E5, #b0efe0E5 45%, #b0efe0 45%) #fff;
   width: 100%;
-  height: 250px;
-  align-content: center;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-    border-radius: 4%;
-    margin-left: 10%;
-    margin-right: 20px;
-
+  height: 225px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .grammarly-ad-section img{
-    box-sizing: border-box;
-    border-radius: 11px;
-    height: 50%;
-    width: 50%;
-    margin:0;
+  box-sizing: border-box;
+  width: 50%;
 }
 
 .grammarly-ad-section p{
-  margin-left: 10px;
-  margin-right:10px;
-  margin-top: 0;
+  color: #4b4b4b;
 }
 
 .joinButtonBox{
@@ -362,40 +360,63 @@
   border-radius: 3px;
   box-shadow: 0 6px 13px 0 rgba(0,0,0,.15);
   text-transform: uppercase;
-  white-space: nowrap;
-  letter-spacing: 1px;
-  font-weight: 400;
-  font-size: 12px;
-  transition: all .3s ease-in-out;
-  transform: translateY(-1px);
-  margin-bottom: 1em;
+  font-size: 11px;
+  color: white;
 }
 
 .smashing-ad {
-  width: 66.66%;
-  height: 500px;
-  border: green solid 1px;
+  width: 60%;
+  height: 650px;
   background-color: #c7372a;
   border-radius: 11px;
-  align-content: center;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-items: center;
-  text-align: center;
+  justify-content: space-evenly;
+  padding: 0 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .smashingAdText{
-  font-size: 50px;
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.smashing-ad img{
-  height: 50%;
-  width: 50%;
+.smashing-ad-img{
+  width: 45%;
 }
 
-.smashing-ad a{
-  text-decoration: none;
+.smashing-ad p{
   color: #fff;
+  width:  99%;
+  line-height: 30px;
+  text-align: center;
+}
+
+.ad-link{
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: #e58980;
+  color: #fff;
+}
+
+.explore-button {
+  padding: 20px;
+  color: #267dcc;
+  background-color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.smashing-ad i {
+  margin-left: 5px;
+}
+
+.smashing-ad small {
+  color: white;
 }
 
 /* FOOTER STYLING */
