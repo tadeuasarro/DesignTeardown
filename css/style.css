@@ -833,107 +833,81 @@
 
 /* FOOTER STYLING */
 .footer {
-  background-color: #757575;
-  color: white;
-  width: auto;
-  height: auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  margin-top: 40px;
+  background-color: #d33a2c;
 }
 
-.upperFooter {
+.small-footer {
   width: 1400px;
-  border: 1px solid red;
-}
-
-.footerHeading{
-  font-size: 1.17em;
-  font-weight: bold;
-}
-
-.footerLinks{
+  border: black solid 1px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.upper-footer {
+  width: 100%;
+  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
-  margin-top: 3rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding: 40px 60px 40px 60px;
+}
+
+.footer-heading {
+  color: white;
+  font-size: 15px;
+}
+
+.upper-footer ul {
   text-align: center;
 }
 
-.footerLinks ul {
-  margin-top: 40px;
-  padding-bottom: 40px;
-}
-
-.footerLinks li {
-  font-size: 1.5rem;
-  display: inline-block;
-  margin-right: 2.7rem;
+.upper-footer ul li {
+  display: inline;
+  font-size: 22px;
   line-height: 60px;
 }
 
-.footerLinks a {
-  font-size: 1.5rem;
-  color: #fff;
+.upper-footer ul li a {
   text-decoration: none;
+  color: white;
 }
 
-.footerLinks p {
-  width: 35%;
-}
-
-.footerLinks p a {
-  color: #fff;
-  font-size: 1rem;
-}
-
-.LowerFooter{
+.lower-footer {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+}
+
+.lower-footer a {
+  color: #fff;
+}
+
+.small-lower-footer {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  padding-bottom: 13%;
-  border: black solid 1px;
+  padding: 0 30px;
 }
 
-.footerImage {
-  height: 100px;
-  width: 200px;
-  margin-left: 15%;
-  transform: scale(0.6);
+.small-lower-footer p {
+  line-height: 30px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin: 40px 0;
 }
 
-.copyrightSection {
-  flex-grow: 1;
-  padding-left: 5%;
-  padding-top: 5%;
+.small-lower-footer ul {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.footerCopyright{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.ul-copyright{
-  align-content: center;
-  width: 540px;
-  vertical-align: middle;
-  padding: 0;
-}
-
-.li-copyright {
+.small-lower-footer ul li {
   display: inline;
-  padding: 5px;
-  line-height: 2;
-  margin-right: 0.5rem;
-}
-
-.li-copyright a{
-  text-decoration: none;
-  color: #fff;
+  line-height: 30px;
+  font-size: 14px;
 }
