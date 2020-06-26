@@ -496,6 +496,7 @@
 .small-fourth-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 1400px;
   border: solid 1px black;
 }
@@ -504,11 +505,12 @@
   width: 100%;
   display: flex;
   padding: 50px 50px;
+  height: 300px;
+  margin-bottom: 50px;
 }
 
 .fourth-container-header img {
-  width: 200px;
-  height: 200px;
+  width: 230px;
   margin-top: 40px;
   transform: rotate(-10deg) translateY(-20px);
   transition: 0.2s;
@@ -525,7 +527,7 @@
   margin-left: 40px;
   display: flex;
   flex-direction: column;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .person-week-name {
@@ -536,24 +538,67 @@
 
 .person-week-text {
   margin-top: 20px;
-  line-height: 25px;
+  line-height: 30px;
+  padding-right: 25px;
+  color: #333333;
 }
 
-.person-week-text a {
+.person-week-text a,
+.fourth-article a {
   color: #006fc6;
 }
 
 .fourth-container-article {
-  width: 50%;
-  height: 500px;
-  border: purple solid 1px;
+  width: 45%;
+  height: 300px;
   display: flex;
-  padding: 0 40px;
+  padding-right: 50px;
+  margin-top: 100px;
 }
 
 .fourth-container-article img {
-  width: 50px;
-  margin-top: 10px;
+  width: 65px;
+  margin-top: 20px;
+  transform: rotate(-10deg) translateY(-10px);
+  transition: 0.2s;
+  margin-right: 30px;
+  border: #d33a2c 3px solid;
+  border-radius: 5px;
+}
+
+.fourth-container-article img:hover {
+  transform: none;
+  transition: 0.2s;
+}
+
+.fourth-article-author {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #666666;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.fourth-article-author a {
+  color: #666666;
+}
+
+.fourth-article h4 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #333333;
+  font-size: 27px;
+  margin: 15px 0;
+}
+
+.fourth-article small {
+  display: inline;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+.fourth-article p {
+  display: inline;
+  color: #333333;
+  line-height: 30px;
 }
 
 /* FOOTER STYLING */
