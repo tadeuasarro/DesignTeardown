@@ -685,10 +685,6 @@
   margin-right: 20px;
   margin-top: 40px;
   padding: 40px;
-}
-
-.guide-container {
-  height: 475px;
   background-color: #fff;
   border-radius: 15px;
 }
@@ -811,10 +807,6 @@
   padding-left: 20px;
 }
 
-.news-form button:hover {
-  cursor: pointer;
-}
-
 .news-form button {
   width: 34%;
   border-radius: 0 10px 10px 0;
@@ -823,6 +815,10 @@
   font-weight: bold;
   color: white;
   background-color: #0168b8;
+}
+
+.news-form button:hover {
+  cursor: pointer;
 }
 
 .news-small {
