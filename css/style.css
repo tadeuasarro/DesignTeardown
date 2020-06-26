@@ -17,20 +17,20 @@
   padding: 0 25px;
 }
 
-.navbar a{
+.navbar a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   font-size: 1.25em;
 }
 
-.navbar-ul{
+.navbar-ul {
   display: flex;
   list-style: none;
   width: 100%;
   justify-content: space-evenly;
 }
 
-.navItem{
+.navItem {
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -105,9 +105,9 @@
   font-size: 20px;
 }
 
-.first-element-title h2{
+.first-element-title h2 {
   display: inline;
-  color: #333333;
+  color: #333;
   background-color: #fff;
   padding: 10px;
 }
@@ -169,7 +169,7 @@
   height: 100%;
 }
 
-.first-element-small-container{
+.first-element-small-container {
   width: 50%;
   height: 120px;
 }
@@ -234,14 +234,11 @@
 
 .social span {
   margin-right: 30px;
+  color: #fff;
 }
 
 .social i {
   color: #61140f;
-}
-
-.social span {
-  color: #fff;
 }
 
 .arrow {
@@ -251,7 +248,7 @@
 
 /* SECOND CONTAINER STYLING */
 .second-container {
-  background-color:  #f3f0ef;
+  background-color: #f3f0ef;
   display: flex;
   justify-content: center;
 }
@@ -272,7 +269,7 @@
 }
 
 .secondary-article:hover {
-  transform: scale( 1.05, 1.05);
+  transform: scale(1.05, 1.05);
   background-color: #fff;
   transition: 0.2s;
 }
@@ -288,7 +285,7 @@
 .secondary-article small {
   text-transform: uppercase;
   font-size: 11px;
-  color: #666666;
+  color: #666;
   font-weight: bold;
 }
 
@@ -303,7 +300,7 @@
 .secondary-author,
 .author-profile {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #666666;
+  color: #666;
   font-weight: 600;
   font-size: 15px;
   margin: 30px 0;
@@ -311,7 +308,7 @@
 
 .secondary-article p {
   line-height: 30px;
-  color: #333333;
+  color: #333;
 }
 
 .hashtag {
@@ -329,13 +326,13 @@
 .grammarly-ad small {
   font-style: italic;
   font-size: 11px;
-  color: #666666;
+  color: #666;
   display: block;
   margin: 20px 0;
 }
 
-.grammarly-ad-section{
-  background: linear-gradient(-30deg, #b0efe0E5, #b0efe0E5 45%, #b0efe0 45%) #fff;
+.grammarly-ad-section {
+  background: linear-gradient(-30deg, #b0efe0e5, #b0efe0e5 45%, #b0efe0 45%) #fff;
   width: 100%;
   height: 225px;
   border-radius: 15px;
@@ -345,20 +342,20 @@
   align-items: center;
 }
 
-.grammarly-ad-section img{
+.grammarly-ad-section-img {
   box-sizing: border-box;
   width: 50%;
 }
 
-.grammarly-ad-section p{
+.grammarly-ad-section p {
   color: #4b4b4b;
 }
 
-.joinButtonBox{
-  background-color: #15C39A;
+.joinButtonBox {
+  background-color: #15c39a;
   padding: 10px 14px;
   border-radius: 3px;
-  box-shadow: 0 6px 13px 0 rgba(0,0,0,.15);
+  box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.15);
   text-transform: uppercase;
   font-size: 11px;
   color: white;
@@ -378,23 +375,23 @@
   margin-bottom: 20px;
 }
 
-.smashingAdText{
+.smashingAdText {
   font-size: 35px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.smashing-ad-img{
+.smashing-ad-img {
   width: 45%;
 }
 
-.smashing-ad p{
+.smashing-ad p {
   color: #fff;
-  width:  99%;
+  width: 99%;
   line-height: 30px;
   text-align: center;
 }
 
-.ad-link{
+.ad-link {
   text-decoration-thickness: 4px;
   text-decoration-color: #e58980;
   color: #fff;
@@ -508,7 +505,7 @@
   margin-bottom: 50px;
 }
 
-.fourth-container-header img {
+.fourth-container-header-img {
   width: 230px;
   margin-top: 40px;
   transform: rotate(-10deg) translateY(-20px);
@@ -532,14 +529,14 @@
 .person-week-name {
   text-transform: uppercase;
   height: 30px;
-  color: #666666;
+  color: #666;
 }
 
 .person-week-text {
   margin-top: 20px;
   line-height: 30px;
   padding-right: 25px;
-  color: #333333;
+  color: #333;
 }
 
 .person-week-text a,
@@ -555,7 +552,7 @@
   margin-top: 100px;
 }
 
-.fourth-container-article img {
+.fourth-container-article-img {
   width: 65px;
   margin-top: 20px;
   transform: rotate(-10deg) translateY(-10px);
@@ -572,18 +569,18 @@
 
 .fourth-article-author {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #666666;
+  color: #666;
   font-weight: bold;
   margin-top: 5px;
 }
 
 .fourth-article-author a {
-  color: #666666;
+  color: #666;
 }
 
-.fourth-article h4 {
+.fourth-article-h4 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #333333;
+  color: #333;
   font-size: 27px;
   margin: 15px 0;
 }
@@ -591,12 +588,12 @@
 .fourth-article small {
   display: inline;
   text-transform: uppercase;
-  color: #666666;
+  color: #666;
 }
 
-.fourth-article p {
+.fourth-article-p {
   display: inline;
-  color: #333333;
+  color: #333;
   line-height: 30px;
 }
 
@@ -655,7 +652,7 @@
   width: 400px;
 }
 
-.fifth-container-second img {
+.fifth-container-second-img {
   width: 250px;
   transform: rotate(-10deg) translateY(-70px);
   transition: 0.2s;
@@ -681,8 +678,7 @@
   padding-top: 40px;
 }
 
-.guide-container,
-.long-guide-container {
+.guide-container {
   width: 45%;
   height: 475px;
   margin-left: 20px;
@@ -691,17 +687,19 @@
   padding: 40px;
 }
 
-.newsletter,
-.long-guide-container {
-  height: 800px;
-}
-
 .guide-container {
   height: 475px;
+  background-color: #fff;
+  border-radius: 15px;
 }
 
-.guide-container,
 .long-guide-container {
+  width: 45%;
+  height: 800px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  padding: 40px;
   background-color: #fff;
   border-radius: 15px;
 }
@@ -722,7 +720,7 @@
 .guide-description {
   line-height: 30px;
   margin: 30px 0;
-  color: #333333;
+  color: #333;
 }
 
 .guide-button {
@@ -733,6 +731,7 @@
   font-weight: bold;
   font-size: 20px;
   border-radius: 15px;
+  text-decoration: none;
 }
 
 .green-link {
@@ -766,6 +765,7 @@
   margin-right: 20px;
   margin-top: 40px;
   background-image: linear-gradient(#1b71bb, #01a6c1);
+  height: 800px;
 }
 
 .news-image {
@@ -811,6 +811,10 @@
   padding-left: 20px;
 }
 
+.news-form button:hover {
+  cursor: pointer;
+}
+
 .news-form button {
   width: 34%;
   border-radius: 0 10px 10px 0;
@@ -818,7 +822,6 @@
   font-size: 20px;
   font-weight: bold;
   color: white;
-  font-weight: #fff;
   background-color: #0168b8;
 }
 
@@ -861,6 +864,7 @@
 
 .upper-footer ul {
   text-align: center;
+  margin-top: 20px;
 }
 
 .upper-footer ul li {
@@ -869,7 +873,7 @@
   line-height: 60px;
 }
 
-.upper-footer ul li a {
+.upper-footer-ul-li-a {
   text-decoration: none;
   color: white;
 }
