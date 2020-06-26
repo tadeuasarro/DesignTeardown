@@ -666,6 +666,46 @@
   transition: 0.2s;
 }
 
+/* SIXTH CONTAINER STYLING */
+.sixth-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f6f3f2;
+}
+
+.small-sixth-container {
+  width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.newsletter,
+.guide-container {
+  width: 45%;
+  height: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  padding: 40px;
+  border: solid 1px black;
+}
+
+.guide-container {
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.guide-title {
+  text-transform: uppercase;
+}
+
+.guide-link {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
 /* FOOTER STYLING */
 .footer {
   background-color: #757575;
