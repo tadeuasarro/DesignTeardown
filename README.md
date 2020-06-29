@@ -1,7 +1,7 @@
 # DesignTeardown
 This project is focused on Design and animation through css. In this project we're required to create gray Scale, Headmap [Smashing Magazine Homepage](https://smashingmagazine.com)
 
-![screenshot](img/screen.png)
+![screenshot](img/screenshotDesignTD.png)
 
 In this task we were required to create a grayscale heatmanp clone of smashing magazine using the best practices of HTML AND CSS with GitHub process flow. This project is named design teardown as it also involves intensive design and some animation.
 
