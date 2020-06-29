@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
+img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
 /* NAVBAR STYLING */
 .navbar {
-  background-color: #d33a2c;
+  background-color: #a5a4a4;
   display: flex;
   width: 100%;
   align-items: center;
@@ -43,16 +48,16 @@
 }
 
 .toggle-bar {
-  background-color: #a92e23;
-  border: 1px solid #a12c21;
+  background-color: #747372;
+  border: 1px solid #6b6a6a;
 }
 
 .nav-button:hover {
-  background-color: #a92e23;
+  background-color: #747372;
 }
 
 .toggle-bar:hover {
-  background-color: #a12c21;
+  background-color: #6b6a6a;
 }
 
 /* has to be fixed, probably with javascript, gotta come up with a solution for toggle bar */
@@ -130,7 +135,7 @@
   align-items: center;
   justify-content: center;
   font-size: 40px;
-  color: #c7372a;
+  color: #777676;
   transform: rotateZ(-10deg) translateY(-10px);
   transition-duration: 0.2s;
 }
@@ -153,7 +158,7 @@
 
 .really-red h4:hover {
   background-color: #fff;
-  color: #c7372a;
+  color: #858483;
 }
 
 .first-element-container {
@@ -175,11 +180,11 @@
 }
 
 .darker {
-  background-color: #bc3428;
+  background-color: #7c7b7b;
 }
 
 .lighter {
-  background-color: #c7372a;
+  background-color: #8b8b8b;
 }
 
 .author {
@@ -238,7 +243,7 @@
 }
 
 .social i {
-  color: #61140f;
+  color: #555454;
 }
 
 .arrow {
@@ -312,7 +317,7 @@
 }
 
 .hashtag {
-  color: #006fc6;
+  color: #3c3d3d;
 }
 
 .grammarly-ad {
@@ -332,7 +337,7 @@
 }
 
 .grammarly-ad-section {
-  background: linear-gradient(-30deg, #b0efe0e5, #b0efe0e5 45%, #b0efe0 45%) #fff;
+  background: linear-gradient(-30deg, #d0d1d1e5, #e8e9e9e5 45%, #e4e6e5 45%) #fff;
   width: 100%;
   height: 225px;
   border-radius: 15px;
@@ -352,7 +357,7 @@
 }
 
 .joinButtonBox {
-  background-color: #15c39a;
+  background-color: #9d9e9e;
   padding: 10px 14px;
   border-radius: 3px;
   box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.15);
@@ -364,7 +369,7 @@
 .smashing-ad {
   width: 60%;
   height: 650px;
-  background-color: #c7372a;
+  background-color: #868686;
   border-radius: 11px;
   display: flex;
   flex-direction: column;
@@ -393,13 +398,13 @@
 
 .ad-link {
   text-decoration-thickness: 4px;
-  text-decoration-color: #e58980;
+  text-decoration-color: #a3a2a2;
   color: #fff;
 }
 
 .explore-button {
   padding: 20px;
-  color: #267dcc;
+  color: #707070;
   background-color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 600;
@@ -429,7 +434,7 @@
 .latest-articles a {
   color: black;
   text-decoration: none;
-  border-bottom: 4px solid #d33a2c;
+  border-bottom: 4px solid #7a7a7a;
   padding-bottom: 10px;
 }
 
@@ -437,7 +442,7 @@
 .third-container {
   height: 1200px;
   width: 100%;
-  background-image: linear-gradient(#1b71bb, #4399d9);
+  background-image: linear-gradient(#767777, #aeb0b1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -458,7 +463,7 @@
   font-weight: bolder;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-decoration-thickness: 4px;
-  text-decoration-color: #4399d9;
+  text-decoration-color: #727374;
   color: white;
 }
 
@@ -472,7 +477,7 @@
 
 .content-button {
   text-decoration: none;
-  color: #267dcc;
+  color: #8b8c8d;
   background-color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 25px;
@@ -510,7 +515,7 @@
   margin-top: 40px;
   transform: rotate(-10deg) translateY(-20px);
   transition: 0.2s;
-  border: #d33a2c 5px solid;
+  border: #a1a0a0 5px solid;
   border-radius: 15px;
 }
 
@@ -541,7 +546,7 @@
 
 .person-week-text a,
 .fourth-article a {
-  color: #006fc6;
+  color: #828283;
 }
 
 .fourth-container-article {
@@ -558,7 +563,7 @@
   transform: rotate(-10deg) translateY(-10px);
   transition: 0.2s;
   margin-right: 30px;
-  border: #d33a2c 3px solid;
+  border: #8b8b8b 3px solid;
   border-radius: 5px;
 }
 
@@ -603,7 +608,7 @@
   width: 100%;
   justify-content: space-between;
   height: 400px;
-  background-color: #d33a2c;
+  background-color: #888888;
 }
 
 .fifth-container-first {
@@ -627,7 +632,7 @@
   font-weight: bolder;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-decoration-thickness: 4px;
-  text-decoration-color: #e58980;
+  text-decoration-color: #cac9c9;
   color: white;
 }
 
@@ -639,7 +644,7 @@
 
 .systems-button {
   text-decoration: none;
-  color: #267dcc;
+  color: #a9a9aa;
   background-color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 25px;
@@ -731,27 +736,27 @@
 }
 
 .green-link {
-  color: #19a972;
+  color: #818382;
 }
 
 .green-button {
-  background-color: #19a972;
+  background-color: #a6a7a6;
 }
 
 .orange-link {
-  color: #ff5a00;
+  color: #868584;
 }
 
 .orange-button {
-  background-color: #ff5a00;
+  background-color: #8a8888;
 }
 
 .purple-link {
-  color: #aa1994;
+  color: #817f81;
 }
 
 .purple-button {
-  background-color: #aa1994;
+  background-color: #777577;
 }
 
 .newsletter {
@@ -760,7 +765,7 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 40px;
-  background-image: linear-gradient(#1b71bb, #01a6c1);
+  background-image: linear-gradient(#9fa0a1, #7e7f80);
   height: 800px;
 }
 
@@ -814,7 +819,7 @@
   font-size: 20px;
   font-weight: bold;
   color: white;
-  background-color: #0168b8;
+  background-color: #8b8c8d;
 }
 
 .news-form button:hover {
@@ -822,7 +827,7 @@
 }
 
 .news-small {
-  background-color: #0586bc;
+  background-color: #808181;
   padding: 20px;
   border-radius: 15px;
   color: #fff;
@@ -834,7 +839,7 @@
 .footer {
   display: flex;
   justify-content: center;
-  background-color: #d33a2c;
+  background-color: #a3a2a2;
 }
 
 .small-footer {
