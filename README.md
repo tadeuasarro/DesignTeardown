@@ -41,9 +41,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- How to cover the whole page irrespective  of the screen size. This is a learning opportunity for you to use the background size and position properties.
-- How to style a website that has more css features
-- Align all elements with float and flex or grid.
+- This project was entirely developed by it's authors;
+- We'de like to take the chance and thank Microverse and all of it's community and staff, for the chance to take part in this project!
 
 
 ## 📝 License
