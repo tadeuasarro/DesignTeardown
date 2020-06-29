@@ -12,7 +12,7 @@ In this task we were required to create a grayscale heatmanp clone of smashing m
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/tadeuasarro/DesignTeardown/smashing/index.html)
+[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/DesignTeardown/42138915ef636b5ec90696d94099af591af92875/index.html)
 
 
 ## Authors
