@@ -1,39 +1,39 @@
-# PositioningAndFloatingElements
+# DesignTeardown
+This project is focused on Design and animation through css. In this project we're required to create gray Scale, Headmap [Smashing Magazine Homepage](https://smashingmagazine.com)
 
-> This is a recreation of the [Smashing Magazine Homepage](https://smashingmagazine.com)
+![screenshot](img/screen.png)
 
-![screenshot](./img/screen.png)
-
-
+In this task we were required to create a grayscale heatmanp clone of smashing magazine using the best practices of HTML AND CSS with GitHub process flow. This project is named design teardown as it also involves intensive design and some animation.
 
 ## Built With
 
-- HTML5 
-- CSS
-- Fontawesome
+- HTML,
+- CSS3,
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/DesignTeardown/4485216e9240dac087706d9b6f021cc17ac4e0c7/index.html)
+[Live Demo Link](https://raw.githack.com/tadeuasarro/DesignTeardown/smashing/index.html)
 
 
 ## Authors
 
-👤 **Tadeu Sarro**
+👤 Tadeu Sarro
 
 - Github: [@tadeuasarro](https://github.com/tadeuasarro)
 - Twitter: [@tadeuasarro](https://twitter.com/tadeuasarro)
 - Linkedin: [@tadeuasarro](https://www.linkedin.com/in/tadeu-sarro-71481013a/)
 
-👤 **Prabhakar Pandey**
+👤 Prabhakar Pandey
 
-- Github: []()
-- Twitter: []()
-- Linkedin: []()
+- Github: [@githubhandle](https://github.com/Prabhakarzx)
+- Twitter: [@twitterhandle](https://twitter.com/prabhakarzx)
+- Linkedin: [linkedin](https://www.linkedin.com/in/prabhakarzx/)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests and any type of feedback to improve are welcome!
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/tadeuasarro/DesignTeardown/issues)
 
 ## Show your support
 
@@ -41,10 +41,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- This project was entirely developed by it's authors;
-- We'de like to take the chance and thank Microverse and all of it's community and staff, for the chance to take part in this project!
-
+- Microverse
+- GitHub
+- TheOdinProject
 
 ## 📝 License
 
-This project has no license.
+This project is open licensed.
